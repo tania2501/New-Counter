@@ -18,11 +18,11 @@ export const CounterSettings = (props: CounterSettingsType) => {
       <div className="numBlock">
         <div className="input">
           <span>max value:</span> 
-          <CounterInput value={props.maxValue} onChange={props.onChangeMaxValue} />
+          <CounterInput value={props.maxValue} onChange={props.onChangeMaxValue} maxValue={props.maxValue} startValue={props.startValue}/>
         </div>
         <div className="input">
           <span>start value:</span>
-          <CounterInput value={props.startValue} onChange={props.onChangeStartValue} />
+          <CounterInput value={props.startValue} onChange={props.onChangeStartValue} maxValue={props.maxValue} startValue={props.startValue}/>
         </div>
       </div>
       <div className="buttons">

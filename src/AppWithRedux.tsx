@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from "react";
+import React, { ChangeEvent} from "react";
 import "./App.css";
 import { Counter } from "./Counter";
 import { CounterSettings } from "./CounterSettings";

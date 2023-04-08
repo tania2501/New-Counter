@@ -1,6 +1,6 @@
 
 import { Reducer } from "@reduxjs/toolkit";
-import React, { ChangeEvent } from "react";
+import{ ChangeEvent } from "react";
 
 const ON_CLICK_PLUS = 'ON_CLICK_PLUS'
 const ON_CLICK_RESET = 'ON_CLICK_RESET'
